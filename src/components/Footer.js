@@ -12,7 +12,8 @@ const Footer = () => {
           <span className="text-primary dark:text-primaryDark text-2xl px-1">
             &#9825;
           </span>
-          by &nbsp;
+          by 
+          {/* &nbsp; */}
           <Link href="/" className="underline underline-offset-2">
             Axel Eldrian Hadiwibowo
           </Link>

@@ -28,7 +28,7 @@ const CustomLink = ({ href, title, className = "" }) => {
             dark:bg-light
             `}
       >
-        &nbsp;
+        {/* &nbsp; */}
       </span>
     </Link>
   );
@@ -57,7 +57,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
             dark:bg-light
             `}
       >
-        &nbsp;
+        {/* &nbsp; */}
       </span>
     </buttom>
   );
