@@ -1,9 +1,4 @@
-colors: {
-    dark: "#1b1b1b",
-    light: "#f5f5f5",
-    primary: "#B63E96", // 240,86,199
-    primaryDark: "#58E6D9", // 80,230,217
-}
+
 
 backgroundImage: {
     circularLight:
@@ -57,4 +52,3 @@ screens: {
     // => @media (max-width: 479px) { ... }
 },
 
-backgroundColor:["#121212", "rgba(131,58,180,1)","rgba(253,29,29,1)","rgba(252,176,69,1)","rgba(131,58,180,1)", "#121212"],
