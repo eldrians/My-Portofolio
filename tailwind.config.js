@@ -20,7 +20,7 @@ module.exports = {
         primaryDark: "#58E6D9",
       },
       animation: {
-        "spin-slow": "spin 3s linear infinite",
+        "spin-slow": "spin 7s linear infinite",
       },
       backgroundImage: {
         circularLight:
