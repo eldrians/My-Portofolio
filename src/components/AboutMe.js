@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import profilePic from "../../public/images/profile/developer-pic-2.jpg";
+import profilePic from "../../public/images/profile/gaya-2.jpeg";
 import Image from "next/image";
 import AnimatedText from "@/components/AnimatedText";
 import { useMotionValue, useInView, useSpring } from "framer-motion";
@@ -42,10 +42,10 @@ const AboutMe = () => {
           </h2>
           <div className="space-y-6 sm:text-sm lg:text-base">
             <p className="font-medium">
-              Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with a
+              Hi, I&apos;m Axel Eldrian Hadiwibowo, a web developer with a
               passion for creating beautiful, functional, and user-centered
-              digital experiences. With 4 years of experience in the field. I am
-              always looking for new and innovative ways to bring my
+              digital experiences. With 2+ years of experience in the field. I
+              am always looking for new and innovative ways to bring my
               clients&apos; visions to life.
             </p>
             <p className="font-medium">
@@ -54,11 +54,10 @@ const AboutMe = () => {
               enjoyable experiences for users.
             </p>
             <p className="font-medium">
-              Whether I&apos;m working on a website, mobile app, or other
-              digital product, I bring my commitment to design excellence and
-              user-centered thinking to every project I work on. I look forward
-              to the opportunity to bring my skills and passion to your next
-              project.
+              Whether I&apos;m working on a website, I bring my commitment to
+              design excellence and user-centered thinking to every project I
+              work on. I look forward to the opportunity to bring my skills and
+              passion to your next project.
             </p>
           </div>
         </div>
@@ -78,7 +77,7 @@ const AboutMe = () => {
         <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-1">
           <div className="flex flex-col items-end justify-center xl:items-center">
             <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-              <AnimatedNumbers value={50} />+
+              <AnimatedNumbers value={3} />
             </span>
             <h2
               className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base
@@ -89,7 +88,7 @@ const AboutMe = () => {
           </div>
           <div className="flex flex-col items-end justify-center xl:items-center">
             <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-              <AnimatedNumbers value={40} />+
+              <AnimatedNumbers value={8} />
             </span>
             <h2
               className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base
