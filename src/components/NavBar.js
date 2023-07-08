@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import Logo from "./Logo";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 import {
@@ -110,7 +109,7 @@ const NavBar = () => {
       <div className="w-full flex justify-between items-center lg:hidden">
         <nav className="space-x-8">
           <CustomLink href="/" title="Home" />
-          <CustomLink href="/about" title="About" />
+          {/* <CustomLink href="/about" title="About" /> */}
           <CustomLink href="/projects" title="Projects" />
           {/* <CustomLink href="/articles" title="Articles" /> */}
         </nav>
@@ -180,11 +179,11 @@ const NavBar = () => {
         >
           <nav className="space-y-4 flex items-center flex-col justify-center">
             <CustomMobileLink href="/" title="Home" toggle={handleClick} />
-            <CustomMobileLink
+            {/* <CustomMobileLink
               href="/about"
               title="About"
               toggle={handleClick}
-            />
+            /> */}
             <CustomMobileLink
               href="/projects"
               title="Projects"
