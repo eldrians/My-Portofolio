@@ -10,6 +10,7 @@ const HireMe = () => {
     <div className="flex items-center justify-center overflow-hidden relative">
       <div
         className="w-full h-auto flex flex-col sm:max-h-[300px] md:max-h-[400px] lg:max-h-[450px] max-h-[500px]
+        
       items-center justify-center"
       >
         {/* test

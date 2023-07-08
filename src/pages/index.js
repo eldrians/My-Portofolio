@@ -17,24 +17,20 @@ export default function Home() {
       </Head>
 
       <TransitionEffect />
-      <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
-        <Layout className="pt-0 md:pt-16 sm:pt-8">
+      <main className="flex items-center text-dark w-full h-fit dark:text-light ">
+        <Layout
+          className="sm:mb-38 lg:mb-52
+        sm:mt-20 lg:mt-16"
+        >
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="w-1/2 lg:w-full ">
-              {/* <Image
-                src={profilePic}
-                alt=""
-                className="w-full h-auto lg:hidden md:inline-block md:w-full"
-                priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-              /> */}
-              <div className="max-w-full h-auto ">
+              <div className="max-w-full h-auto sm:mb-6 lg:mb-6">
                 <HireMe />
               </div>
             </div>
             <div
               className="
-            w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center"
+            w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center sm:mb-4 lg:mb-2"
             >
               <AnimatedText
                 text="Hi, I'm Axel"
