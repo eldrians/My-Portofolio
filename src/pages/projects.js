@@ -135,10 +135,10 @@ const projects = () => {
       <main className="w-full mv-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Trumps Knowledge!"
+            text="Under Contruction!"
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
-          <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+          {/* <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
                 title="Crypto Screener Application"
@@ -211,7 +211,7 @@ const projects = () => {
                 type="Featured Project"
               />
             </div>
-          </div>
+          </div> */}
         </Layout>
       </main>
     </>

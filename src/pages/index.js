@@ -1,7 +1,5 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
-import Image from "next/image";
-import profilePic from "../../public/images/profile/developer-pic-1.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
@@ -11,6 +9,7 @@ import AboutMe from "@/components/AboutMe";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
+import Award from "@/components/Award";
 
 export default function Home() {
   return (
@@ -88,6 +87,7 @@ export default function Home() {
           <AboutMe />
           <Skills />
           <Experience />
+          <Award />
           <Education />
         </Layout>
         {/* <HireMe /> */}

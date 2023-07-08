@@ -117,7 +117,7 @@ const NavBar = () => {
           className="flex items-center justify-center flex-wrap
       space-x-6"
         >
-          <motion.a
+          {/* <motion.a
             href="/"
             target={"_blank"}
             whileHover={{
@@ -126,9 +126,9 @@ const NavBar = () => {
             className="w-6"
           >
             <TwitterIcon />
-          </motion.a>
+          </motion.a> */}
           <motion.a
-            href="/"
+            href="https://github.com/eldrians"
             target={"_blank"}
             whileHover={{
               y: -2,
@@ -138,7 +138,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="/"
+            href="https://www.linkedin.com/in/axeleldrian/"
             target={"_blank"}
             whileHover={{
               y: -2,
@@ -147,7 +147,7 @@ const NavBar = () => {
           >
             <LinkedInIcon />
           </motion.a>
-          <motion.a
+          {/* <motion.a
             href="/"
             target={"_blank"}
             whileHover={{
@@ -166,7 +166,7 @@ const NavBar = () => {
             className="w-6"
           >
             <DribbbleIcon />
-          </motion.a>
+          </motion.a> */}
         </nav>
       </div>
 
@@ -195,7 +195,7 @@ const NavBar = () => {
             className="flex items-center justify-center flex-wrap mt-12
       space-x-6 sm:space-x-2"
           >
-            <motion.a
+            {/* <motion.a
               href="/"
               target={"_blank"}
               whileHover={{
@@ -204,9 +204,9 @@ const NavBar = () => {
               className="w-6"
             >
               <TwitterIcon />
-            </motion.a>
+            </motion.a> */}
             <motion.a
-              href="/"
+              href="https://github.com/eldrians"
               target={"_blank"}
               whileHover={{
                 y: -2,
@@ -216,7 +216,7 @@ const NavBar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="/"
+              href="https://www.linkedin.com/in/axeleldrian/"
               target={"_blank"}
               whileHover={{
                 y: -2,
@@ -225,7 +225,7 @@ const NavBar = () => {
             >
               <LinkedInIcon />
             </motion.a>
-            <motion.a
+            {/* <motion.a
               href="/"
               target={"_blank"}
               whileHover={{
@@ -244,7 +244,7 @@ const NavBar = () => {
               className="w-6"
             >
               <DribbbleIcon />
-            </motion.a>
+            </motion.a> */}
           </nav>
         </motion.div>
       ) : null}

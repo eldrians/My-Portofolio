@@ -36,13 +36,13 @@ const HireMe = () => {
         className="w-full sm:max-h-[300px] md:max-h-[400px] lg:max-h-[450px] max-h-[500px]
       flex items-center bottom-0 justify-center absolute"
       >
-        <Image
+        {/* <Image
           src={profilePic}
           alt=""
           className="flex items-center justify-center bottom-4 sm:max-w-[225px] md:max-w-[350px] lg:max-w-[335px] max-w-[370px]"
           priority
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-        />
+        /> */}
       </div>
     </div>
   );
