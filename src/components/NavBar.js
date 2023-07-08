@@ -168,21 +168,6 @@ const NavBar = () => {
           >
             <DribbbleIcon />
           </motion.a>
-
-          <button
-            onClick={() => {
-              setMode(mode === "light" ? "dark" : "light");
-            }}
-            className={`ml-3 flex items-center justify-center rounded-full p-1
-          ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
-          `}
-          >
-            {mode === "dark" ? (
-              <SunIcon className={"fill-dark"} />
-            ) : (
-              <MoonIcon className={"fill-dark"} />
-            )}
-          </button>
         </nav>
       </div>
 
@@ -261,31 +246,29 @@ const NavBar = () => {
             >
               <DribbbleIcon />
             </motion.a>
-
-            <button
-              onClick={() => {
-                setMode(mode === "light" ? "dark" : "light");
-              }}
-              className={`ml-3 flex items-center justify-center rounded-full p-1
-          ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
-          `}
-            >
-              {mode === "dark" ? (
-                <div className="w-6">
-                  <SunIcon className={"fill-dark"} />
-                </div>
-              ) : (
-                <div className="w-6">
-                  <MoonIcon className={"fill-dark"} />
-                </div>
-              )}
-            </button>
           </nav>
         </motion.div>
       ) : null}
 
-      <div className="absolute translate-x-[-50%] left-[50%] top-2">
-        <Logo />
+      <div className="absolute translate-x-[-50%] left-[50%] py-32">
+        <button
+          onClick={() => {
+            setMode(mode === "light" ? "dark" : "light");
+          }}
+          className={`ml-3 flex items-center justify-center rounded-full p-1
+          ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
+          `}
+        >
+          {mode === "dark" ? (
+            <div className="w-6">
+              <SunIcon className={"fill-dark"} />
+            </div>
+          ) : (
+            <div className="w-6">
+              <MoonIcon className={"fill-dark"} />
+            </div>
+          )}
+        </button>
       </div>
     </header>
   );
