@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { CircularText } from "./Icons";
+import { CircularText, CircularRing } from "./Icons";
 import Image from "next/image";
 import profilePic from "../../public/images/profile/main-image.png";
 
@@ -19,7 +19,8 @@ const HireMe = () => {
       bg-pink-500 lg:bg-blue-500 md:bg-yellow-500 sm:bg-green-500 
       items-center justify-center"
       > */}
-        <CircularText className={"fill-dark dark:fill-light w-full h-fit "} />
+        {/* <CircularText className={"fill-dark dark:fill-light w-full h-fit "} /> */}
+        <CircularRing className={"fill-dark dark:fill-light w-full h-fit "} />
         {/* <Link
           href="mailto: eldrianaxel1@gmail.com"
           className="flex items-center justify-center absolute left-1/2 top-2/3 -translate-x-1/2 -translate-y-1/2
