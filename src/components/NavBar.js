@@ -28,7 +28,7 @@ const CustomLink = ({ href, title, className = "" }) => {
             dark:bg-light
             `}
       >
-        {/* &nbsp; */}
+        &nbsp;
       </span>
     </Link>
   );
